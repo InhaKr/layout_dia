@@ -170,17 +170,12 @@
   margin-right: 25px;
   width: 32px;
   height: 32px;
-
-  // fill: #fff;
+  fill: transparent;
   stroke: #fff;
   transition:
     fill 0.5s ease,
     stroke 0.5s ease;
   transition: fill 0.5s ease;
-
-  &:not(last-child) {
-    fill: #fff;
-  }
 }
 
 .social-icon:hover svg {
