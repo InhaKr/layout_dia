@@ -72,8 +72,8 @@
   }
 
   &__form-style:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px #000 inset;
-    -webkit-text-fill-color: #fff;
+    // -webkit-box-shadow: 0 0 0 1000px #000 inset;
+    // -webkit-text-fill-color: #fff;
 
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
@@ -95,6 +95,7 @@
   &__form-textarea:-webkit-autofill {
     margin-bottom: 16px;
     color: red;
+
     // min-height: 148px;
     resize: none;
   }
@@ -102,12 +103,14 @@
   &__form-style:-webkit-autofill:hover,
   &__form-textarea:-webkit-autofill:hover {
     border-bottom: 2px solid #144ed4;
+
     // color: $main-text-color;
   }
 
   &__form-style:-webkit-autofill:focus,
   &__form-textarea:-webkit-autofill:focus {
     border-bottom: 2px solid #144ed4;
+
     // border: 2px solid $main-text-color;
     // color: $main-text-color;
   }

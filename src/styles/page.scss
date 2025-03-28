@@ -113,3 +113,8 @@
   text-transform: uppercase;
   color: #c0cdd7;
 }
+
+.page__body input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px #000 inset;
+  -webkit-text-fill-color: #fff;
+}
