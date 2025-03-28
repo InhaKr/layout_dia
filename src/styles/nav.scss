@@ -8,11 +8,8 @@
     flex-direction: column;
     gap: 32px;
 
-    @include on-tablet {
-      flex-direction: row;
-    }
-
     @include on-desktoplittle {
+      flex-direction: row;
       gap: 0;
       margin-top: 40px;
     }
@@ -36,6 +33,7 @@
 
     @include on-tablet {
       gap: 40px;
+      flex-direction: row;
     }
 
     @include on-desktoplittle {
@@ -64,7 +62,7 @@
     }
 
     &::after {
-      content: '';
+      content: "";
 
       position: absolute;
       bottom: -8px;

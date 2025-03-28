@@ -32,6 +32,7 @@
   &__top-bar {
     display: flex;
     align-items: center;
+    gap: 30px;
   }
 
   &__top-icon {
@@ -69,7 +70,7 @@
     transition: all 0.5s ease;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       background-color: #2060f6;
@@ -178,11 +179,22 @@
 }
 
 /* Адаптивность при уменьшении высоты */
-@media (max-height: 700px) {
+@media (max-height: 892px) and (max-width: 1023px) {
+  .header__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .header__main-text {
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+
   .arrows {
     margin-bottom: 30px;
   }
+}
 
+@media (max-height: 700px) {
   .header__title {
     font-size: 40px;
     margin-bottom: 20px;
@@ -197,7 +209,7 @@
     height: 100%;
   }
 
-  .content {
-    margin-bottom: 0;
-  }
+  // .content {
+  //   margin-bottom: 0;
+  // }
 }
