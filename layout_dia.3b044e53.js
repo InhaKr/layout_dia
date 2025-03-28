@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".slide"),t=0;function n(t){e.forEach((e,n)=>{e.classList.toggle("active",n===t)})}document.querySelector(".prev").addEventListener("click",()=>{n(t=t>0?t-1:e.length-1)}),document.querySelector(".next").addEventListener("click",()=>{n(t=t<e.length-1?t+1:0)}),n(t)});
+//# sourceMappingURL=layout_dia.3b044e53.js.map
